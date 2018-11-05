@@ -1,5 +1,5 @@
 # hype-docker
-Docker file containing the HYPE model code
+Docker file containing the Hydrological Predictions for the Environment (HYPE) model (http://hypecode.smhi.se/).
 ### Building the image
 To build this docker image locally: install git and docker, clone this repo and within this repo directory type
 ```
