@@ -11,7 +11,4 @@ This docker file assumes the HYPE model input to be in the folder /data within t
 ```
 docker run -v <HYPE_DATA>:/data hype-docker:latest
 ```
-where `<HYPE_DATA>` contains your input data and the results folder that HYPE will write to. This folder must contain a file `filedir.txt` that should contain the single line
-```
-/data/
-```
+where `<HYPE_DATA>` contains your input data and the results folder that HYPE will write to. Note that the output directory listed in the info.txt file needs to exist before running the model.
