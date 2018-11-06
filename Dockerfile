@@ -1,6 +1,5 @@
 # DockerFile for the HYPE model.
 # The input data root directory should be mounted as /data
-# The filedir.txt in the input directory should only contain the single line: /data/
 # The output folder should exist within the mounted volume
 FROM ubuntu:bionic
 MAINTAINER Gijs van den Oord <g.vandenoord@esciencecenter.nl>
